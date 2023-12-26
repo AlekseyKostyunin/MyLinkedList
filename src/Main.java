@@ -12,5 +12,17 @@ public class Main {
         System.out.println(list.getOfIndex(2));
         System.out.println(list);
         System.out.println(list.size);
+
+        System.out.println("________________________________");
+
+        MyLinkedList<String> list2 = new MyLinkedList<>();
+        list2.addLast("15");
+        list2.addLast("sdfjsdfdfsf");
+        list2.addFirst("строка");
+        System.out.println(list2.getOfIndex(0));
+        System.out.println(list2.getOfIndex(1));
+        System.out.println(list2.getOfIndex(2));
+        System.out.println(list2);
+        System.out.println(list2.size);
     }
 }
